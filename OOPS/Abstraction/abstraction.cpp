@@ -25,4 +25,35 @@
 //abstraction class
 
 //Abstraction class -> What to do? extended Children Class-> How to do ? also in children class we have to define Pure virtual function
-//In abstraction class -> Normal Datamembers + Function Members can be used
+//In abstraction class -> Normal Datamembers + Function Members can be used!
+
+#include <iostream>
+using namespace std;
+
+class Car{
+public:
+//by using virtual function we will list out those neccesary info which has to shown to user...
+
+virtual void engineInfo()=0;
+virtual void breakInfo()=0;
+
+};
+
+class Tata : public Car{
+
+public:
+
+void engineInfo(){
+cout<<"Engine started"<<endl;
+}
+
+virtual void breakInfo(){
+    cout<<"The break is used to stop the car"<<endl;
+}
+
+};
+
+int main(){
+
+    return 0;
+}
