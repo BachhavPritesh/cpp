@@ -1,29 +1,30 @@
-Encapsulation is a core concept in Object-Oriented Programming (OOP). It means bundling data (variables) and the methods (functions) that operate on that data into a single unit, usually a class, and restricting direct access to some of the object's components.
+// Encapsulation is a core concept in Object-Oriented Programming (OOP). It means bundling data (variables) and the methods (functions) that operate 
+// on that data into a single unit, usually a class, and restricting direct access to some of the object's components.
 
-Simple Definition
+// Simple Definition
 
-Encapsulation = Data + Methods together + Controlled access
+// Encapsulation = Data + Methods together + Controlled access
 
-Why Encapsulation is Important
+// Why Encapsulation is Important
 
-🔒 Data protection – Prevents direct modification of internal data.
-🧩 Better organization – Keeps related data and methods together.
-🛠 Easy maintenance – Internal implementation can change without affecting other code.
-🎛 Controlled access – Access data using getters and setters.
+// 🔒 Data protection – Prevents direct modification of internal data.
+// 🧩 Better organization – Keeps related data and methods together.
+// 🛠 Easy maintenance – Internal implementation can change without affecting other code.
+// 🎛 Controlled access – Access data using getters and setters.
 
-Real-Life Example
+// Real-Life Example
 
-Think of a capsule medicine 💊:
+// Think of a capsule medicine 💊:
 
-The capsule wraps the medicine inside.
+// The capsule wraps the medicine inside.
 
-You cannot see or change what's inside directly.
+// You cannot see or change what's inside directly.
 
-Similarly, in programming:
+// Similarly, in programming:
 
-Data is hidden inside a class
+// Data is hidden inside a class
 
-It can only be accessed using public methods
+// It can only be accessed using public methods
 
 
 #include <iostream>
