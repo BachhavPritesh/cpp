@@ -4,7 +4,7 @@
 
 // A template is a blueprint for creating functions or classes that can operate with any data type.
 
-//FUNCTION:
+// FUNCTION:
 
 // #include <iostream>
 // using namespace std;
@@ -15,41 +15,43 @@
 // }
 
 // int main() {
- 
+
 //     add(1,4);
 //     add(5.4,2);
-  
+
 //     return 0;
 // }
 
-//CLASS
+// CLASS
 
 #include <iostream>
 using namespace std;
 
 template <class T1, class T2>
 
+class Pair
+{
+public:
+    T1 first;
+    T2 second;
 
-class Pair{
-  public:
-  T1 first;
-  T2 second;
-  
-  Pair(T1 a,T2 b){
-      first = a;
-      second = b;
-  }
-  
-  void display(){
-      cout<<"First value is ->|"<<first<<"|second is ->|"<<second<<"|"<<
-      endl;
-  }
+    Pair(T1 a, T2 b)
+    {
+        first = a;
+        second = b;
+    }
+
+    void display()
+    {
+        cout << "First value is ->|" << first << "|second is ->|" << second << "|" << endl;
+    }
 };
 
-int main() {
- 
- Pair<int,float>p1(1,3.5);
- p1.display();
-  
+int main()
+{
+
+    Pair<int, float> p1(1, 3.5);
+    p1.display();
+
     return 0;
 }
