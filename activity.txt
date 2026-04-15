@@ -3,3 +3,4 @@ docs: update installation steps on 2026-04-16 16:09:24
 perf: optimize data fetching logic on 2026-04-15 10:08:25
 test: add unit tests for auth module on 2026-04-15 17:04:43
 fix typo in README on 2026-04-16 10:46:50
+feat: add loading spinner to dashboard on 2026-04-15 15:53:43
