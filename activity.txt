@@ -12,3 +12,4 @@ feat: add user authentication flow on 2026-04-15 18:40:56
 test: add unit tests for auth module on 2026-04-15 13:18:58
 refactor: clean up API service layer on 2026-04-15 10:11:01
 style: improve button alignment on 2026-04-15 16:39:36
+cleanup unused variables on 2026-04-16 15:20:23
