@@ -7,3 +7,4 @@ feat: add loading spinner to dashboard on 2026-04-15 15:53:43
 fix: handle edge case in form validation on 2026-04-16 14:46:57
 fix: handle edge case in form validation on 2026-04-16 10:34:51
 cleanup unused variables on 2026-04-15 11:02:00
+test: add unit tests for auth module on 2026-04-16 11:26:13
